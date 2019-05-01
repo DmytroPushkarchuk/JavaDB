@@ -49,10 +49,10 @@ public class Main {
 		emplProj.setProjectId(project.getId());
 
 		try {
-//	            addressService.add(address);
-//	            employeeService.add(employee);
-//	            projectService.add(project);
-//	            emplProjService.add(emplProj);
+//			addressService.add(address);
+//			employeeService.add(employee);
+//			projectService.add(project);
+//			emplProjService.add(emplProj);
 
 			List<Address> addressList = addressService.getAll();
 			List<Employee> employeeList = employeeService.getAll();
