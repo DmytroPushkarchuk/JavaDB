@@ -2,7 +2,7 @@ package JDBC.database.entity;
 
 public class Project {
 	private Long id;
-	private String titale;
+	private String title;
 
 	public Project() {
 		
@@ -16,17 +16,17 @@ public class Project {
 		this.id = id;
 	}
 
-	public String getTitale() {
-		return titale;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setTitale(String titale) {
-		this.titale = titale;
+	public void setTitle(String titale) {
+		this.title = titale;
 	}
 
 	@Override
 	public String toString() {
-		return "Project [id=" + id + ", titale=" + titale + "]";
+		return "Project [id=" + id + ", title=" + title + "]";
 	}
 	
 
