@@ -40,6 +40,7 @@ public class Main {
 		employee.setBirthday(new java.sql.Date(calendar.getTime().getTime()));
 		employee.setAddressId(address.getId());
 
+		
 		Project project = new Project();
 		project.setId(1L);
 		project.setTitle("Gotham City Police Department Commissioner");
@@ -63,6 +64,7 @@ public class Main {
 				System.out.println(e);
 			}
 
+			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
